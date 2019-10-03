@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="android-imx"
+           fetch="https://source.codeaurora.org/external/imx/aosp/"
+           review="" />
+
+  <project path="system/sepolicy" name="platform/system/sepolicy" groups="pdk" remote="android-imx" revision="refs/tags/p9.0.0_1.0.0-ga" />
+</manifest>
